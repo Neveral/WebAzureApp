@@ -1,0 +1,260 @@
+/* ================================
+Imports
+================================= */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800);
+@import url('font-awesome.min.css');
+@import url('overwrite.css');
+@import url('dlmenu.css');
+@import url('animate.css');
+
+/* ================================
+General
+================================= */
+body{
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.lead{
+	font-weight: 400;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+button.navbar-toggle {
+	background: #2b2b2b;
+	border: none;
+	color: #fff;
+}
+
+.btn-theme,.btn-theme:hover,.btn-theme:focus{
+	color: #fff;
+}
+.btn-theme:hover{
+	background: transparent !important;
+	border-color: #999;
+	color: #999;
+}
+
+
+/* ================================
+margin, padding
+================================= */
+.mar-top0 {
+	margin-top: 0;
+}
+.mar-top10 {
+	margin-top: 10px;
+}
+.mar-top20 {
+	margin-top: 20px;
+}
+.mar-top30 {
+	margin-top: 30px;
+}
+.mar-top40 {
+	margin-top: 40px;
+}
+
+
+
+/* ================================
+Home sections
+================================= */
+
+.home-section {
+	width: 100%;
+	padding: 90px 0px 150px 0px;
+}
+
+/* --- heading --- */
+.section-heading {
+	margin-bottom: 70px;
+}
+
+.section-heading h2 {
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
+.section-heading .heading-line {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* --- section bg var --- */
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-gray {
+	background: #f8f8f8;
+}
+
+.bg-dark {
+	background: #575757;
+}
+
+
+/* --- section content general color --- */
+
+.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
+	color: #fff;
+}
+
+
+.color-light p {
+	color: #eee;
+}
+
+
+/* ==========================
+Spacer
+============================= */
+
+#spacer1{
+	background-image: url(../img/spacer/1.jpg);
+}
+#spacer2{
+	background-image: url(../img/spacer/2.jpg);
+}
+
+
+/* ================================
+Intro
+================================= */
+
+
+/* style tricks fot placegolder */
+/*::-webkit-input-placeholder {padding-left: 30px}*/
+/*::-moz-placeholder          {padding-left: 30px}/* Firefox 19+ */
+/*:-moz-placeholder           {padding-left: 30px}/* Firefox 18- */
+/*:-ms-input-placeholder      {padding-left: 30px}*/
+/* end tyle fot placegolder */
+
+#intro{
+	height:800px;
+	width:100%;
+	background-color: #529abb;
+	/*background-position:center;*/
+	background-repeat:no-repeat;
+	overflow-y:hidden;
+	position:relative;
+	text-align: center;
+}
+
+#intro form {
+	min-width: 1250px;
+	width: 80%;
+	margin: auto;
+}
+
+.block{
+	height:375px;
+	/*width: 620px;*/
+	width: 50%;
+	background-image: url(../img/bg-mac.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: 30px;
+}
+
+
+#intro textarea {
+	margin-left: 71px;
+	margin-top: 19px;
+	resize: none;
+	width: 470px;
+	height: 296px;
+	float: left;
+	border-radius: 8px;
+	border-color: #fff;
+}
+
+/* ================================
+Contact
+================================= */
+
+
+/* ================================
+Bottom widget
+================================= */
+ul.social-network {
+	margin: 0;
+	margin-left:0;
+	padding-left: 0;
+	list-style: none;
+}
+ul.social-network li {
+	display: inline;
+	margin: 5px 5px;
+}
+
+ul.social-network li a:hover span .fa-circle {
+	color: #2b2b2b;
+}
+
+/* ================================
+Footer
+================================= */
+footer {
+	background: #2b2b2b;
+	color: #ddd;
+	padding: 50px 0 30px;
+}
